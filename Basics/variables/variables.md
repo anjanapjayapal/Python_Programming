@@ -7,4 +7,4 @@
 
 4. Answer which of these are invalid variable names: _nation 1record record1 record_one record-one record^one continue
 
-   [Solution]([Basics/variables/variables.py](https://github.com/anjujayapal/python_programming/blob/main/Basics/variables/variables.py))
+   [Solution](https://github.com/anjujayapal/python_programming/blob/main/Basics/variables/variables.py)
