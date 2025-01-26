@@ -1,12 +1,12 @@
 ## PYTHON PROGRAMMING
 
-# **Introduction**
+# Introduction
 
 This repository aims to provide a set of simple Python programs that demonstrate core programming concepts. Whether you're new to Python or brushing up on the basics, this repository will help you get hands-on experience with a variety of Python concepts.
 
 Each program is explained with comments to provide a clear understanding of how things work. Feel free to clone this repository, run the programs, and modify them to suit your learning needs.
 
-# **Programs**
+# Programs
 
 *Basic Programs*
 - Print Patterns: Programs to print various number and character patterns.
