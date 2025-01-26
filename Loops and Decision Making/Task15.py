@@ -2,23 +2,27 @@
 
 # PROGRAM
 
-# Function to check if a number is an Armstrong number
+# Function to check Armstrong number without converting to string
 def is_armstrong(num):
-    num_str = str(num)  # Convert number to string to get individual digits
-    n = len(num_str)  # Get the number of digits
-    armstrong_sum = sum(int(digit) ** n for digit in num_str)  # Calculate sum of digits raised to the power of n
-    
-    return num == armstrong_sum  # Return True if Armstrong number, else False
+    temp = num
+    n = len(str(num))  # Find the number of digits (using str only for length)
+    armstrong_sum = 0
 
-# Take user input
+    while temp > 0:
+        digit = temp % 10  # Extract last digit
+        armstrong_sum += digit ** n  # Add digit^n to sum
+        temp //= 10  # Remove last digit
+
+    return num == armstrong_sum  # Compare with original number
+
+# User input
 num = int(input("Enter a number: "))
 
-# Check and display result
+# Check Armstrong condition
 if is_armstrong(num):
     print(f"{num} is an Armstrong number.")
 else:
     print(f"{num} is not an Armstrong number.")
-
 
 
 # OUTPUT
