@@ -27,6 +27,11 @@ Each program is explained with comments to provide a clear understanding of how 
 
 *File Handling*
 - File Operations: Basic programs for reading from and writing to files.
+- Count Words and Lines – Programs to analyze text files.
+  
+*Advanced*
+- Lambda Functions – Sorting, filtering, and mapping data efficiently.
+- Regular Expressions (Regex) – Pattern matching and validations.
 
 
 
